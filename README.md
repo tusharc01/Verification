@@ -103,7 +103,7 @@ He then introduces the **inheritance hierarchy**:
 *   "**transaction is a base class**" (base class).
 *   All the specific transactions (random, read, write, error) are "**derived class**" (derived classes).
 
-The core concept of **polymorphism** is that it "**allows us to store instance of any sub clause in handle of superclass**". In this case, the "super Class" or "base Class" is the `transaction` class. This means "we can store any of these instances in the handle of the super class".
+The core concept of **polymorphism** is that it "**allows us to store instance of any sub class in handle of superclass**". In this case, the "super Class" or "base Class" is the `transaction` class. This means "we can store any of these instances in the handle of the super class".
 
 He explains **how this is used on the generator side**:
 *   The generator is "**generating actually multiple of these transactions**".
